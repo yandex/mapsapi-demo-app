@@ -1,0 +1,15 @@
+.driver-point {
+	width: 15px;
+	height: 15px;
+	background-color: #3c83ff;
+	border: 5px solid white;
+	border-radius: 50%;
+	position: relative;
+	transform: translate(-50%, -50%);
+}
+
+.waypoint {
+	max-width: 100px;
+	text-align: center;
+	font-weight: 500;
+}

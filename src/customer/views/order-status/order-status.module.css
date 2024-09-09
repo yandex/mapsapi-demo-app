@@ -1,0 +1,59 @@
+.alert {
+	margin: var(--paddings-size-s, 8px) 0;
+	border-radius: var(--paddings-size-m, 12px);
+}
+
+.pickpoint {
+	display: flex;
+	padding: var(--paddings-size-xl, 20px) var(--paddings-size-s, 8px);
+	flex-direction: column;
+	align-items: flex-start;
+	gap: var(--paddings-size-m, 12px);
+	align-self: stretch;
+}
+
+.item {
+	display: flex;
+	align-items: center;
+	gap: var(--paddings-size-m, 12px);
+	padding-left: var(--paddings-size-l, 16px);
+	position: relative;
+	color: var(--text-text-secondary, #878787);
+	font-size: 16px;
+	line-height: 22px;
+
+	&::before {
+		content: '';
+		width: 9px;
+		height: 9px;
+		border-radius: 50%;
+		background-color: var(--strokes-stroke-default, #eee);
+		position: absolute;
+		left: 0;
+		transform: translateX(-50%);
+	}
+
+	&:not(:last-child)::after {
+		content: '';
+		width: 1px;
+		height: 12px;
+		background-color: var(--strokes-stroke-default, #eee);
+		position: absolute;
+		left: -1px;
+		top: 22px;
+	}
+}
+
+.item.active {
+	color: var(--text-text-primary, #000);
+
+	&:has(~ .item.active):not(:last-of-type)::after,
+	&::before {
+		background-color: var(--interact-interact-btn-accent, #313133);
+	}
+
+	&:not(&:has(~ .item.active))::before {
+		width: 11px;
+		height: 11px;
+	}
+}

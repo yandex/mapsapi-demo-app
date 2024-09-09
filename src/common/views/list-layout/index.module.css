@@ -1,0 +1,4 @@
+.list {
+	background-color: var(--bg-bg-primary);
+	border-radius: var(--radius-radius-l);
+}

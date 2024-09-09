@@ -1,0 +1,45 @@
+.driver-view {
+    padding: var(--paddings-size-l);
+}
+
+.close-icon {
+    cursor: pointer;
+    padding: var(--paddings-size-m);
+}
+
+.order-name {
+    padding: var(--paddings-size-xxs) var(--paddings-size-xs);
+	border-radius: var(--radius-radius-s);
+	border: 1px solid var(--strokes-stroke-default);
+	background: var(--interact-interact-btn-secondary);
+	color: var(--text-text-primary);
+    vertical-align: middle;
+}
+
+.map {
+    aspect-ratio: 4 / 3;
+    border-radius: var(--radius-radius-s);
+	overflow: hidden;
+    position: relative;
+}
+
+.blur {
+    position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgb(0 0 0 / 20%);
+	backdrop-filter: blur(7px);
+	z-index: 1;
+}
+
+.blur-text {
+	color: var(--text-text-inverted);
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.driver-state {
+	color: var(--text-text-secondary);
+	font-size: 16px;
+	line-height: 22px;
+}

@@ -1,0 +1,10 @@
+.content {
+	width: 100%;
+}
+
+.short-date {
+	color: var(--text-text-secondary);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+}

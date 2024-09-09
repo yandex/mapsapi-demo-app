@@ -1,0 +1,5 @@
+@media (width < 800px) {
+    .wrapper {
+        transition: none !important;
+    }
+}

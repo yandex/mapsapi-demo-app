@@ -1,0 +1,12 @@
+.title {
+	display: flex;
+	padding: var(--paddings-size-micro, 2px) var(--paddings-size-l, 16px)
+		var(--paddings-size-s, 8px) var(--paddings-size-l, 16px);
+	flex-direction: column;
+	align-items: flex-start;
+	gap: var(--paddings-size-l, 16px);
+}
+
+.title h3 {
+	margin: 0;
+}

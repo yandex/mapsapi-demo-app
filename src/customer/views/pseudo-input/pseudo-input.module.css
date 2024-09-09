@@ -1,0 +1,27 @@
+.input {
+	display: flex;
+	padding: var(--paddings-size-m, 12px) var(--paddings-size-l, 16px);
+	align-items: center;
+	gap: var(--paddings-size-xs, 6px);
+	flex: 1 0 0;
+	border-radius: var(--radius-radius-s, 8px);
+	background: var(--bg-bg-primary, #fff);
+
+	/* light/shadow-xs */
+	box-shadow:
+		0 2px 4px 0 rgb(95 105 131 / 20%),
+		0 0 2px 0 rgb(95 105 131 / 8%);
+	cursor: text;
+}
+
+.prefix {
+	display: flex;
+	width: 12px;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.placeholder {
+	font-size: 14px;
+	color: var(--text-text-secondary, #878787);
+}

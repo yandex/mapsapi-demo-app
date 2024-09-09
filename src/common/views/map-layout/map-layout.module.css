@@ -1,0 +1,26 @@
+.static {
+	--map-background: transparent;
+
+	width: 100%;
+	height: 100%;
+	background: var(--map-background);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 1px;
+	height: 1px;
+	background-color: red;
+}
+
+.center-box {
+	transform: translateY(
+		8px
+	); /* For some reason the ant-design tooltip is shifted by this amount */
+}

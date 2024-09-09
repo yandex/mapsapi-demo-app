@@ -1,0 +1,41 @@
+.settings-button {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.button-text {
+	margin-left: var(--paddings-size-s);
+}
+
+.drawer .drawer-content {
+	width: 100vw;
+}
+
+.apps.all {
+	display: none;
+}
+
+@media (width < 800px) {
+	.settings-button {
+		padding-bottom: var(--paddings-size-xl);
+		height: 48px;
+	}
+}
+
+@media (width >= 800px) {
+	.settings-button {
+		top: var(--paddings-size-s);
+		left: var(--paddings-size-s);
+		bottom: auto;
+		width: auto;
+	}
+
+	.settings-button > .button-text {
+		display: none;
+	}
+
+	.drawer .drawer-content {
+		width: 378px;
+	}
+}

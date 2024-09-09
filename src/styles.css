@@ -1,0 +1,88 @@
+:root {
+	--paddings-size-xxs: 4px;
+	--paddings-size-xxxl: 32px;
+	--paddings-size-xxl: 24px;
+	--paddings-size-xl: 20px;
+	--paddings-size-l: 16px;
+	--paddings-size-m: 12px;
+	--paddings-size-s: 8px;
+	--paddings-size-xs: 6px;
+	--paddings-size-micro: 2px;
+	--paddings-size-zero: 0px;
+	--paddings-size-s-2-dont-use-a-lot: 10px;
+	--paddings-additional-96: 96px;
+	--paddings-additional-64: 64px;
+	--text-text-additional: #ccc;
+	--text-text-primary: #000;
+	--text-text-inverted: #fff;
+	--text-text-secondary: #878787;
+	--text-text-action: #122db2;
+	--text-text-warning: #f73;
+	--bg-bg-submerged: #f6f6f6;
+	--bg-bg-primary: #fff;
+	--radius-radius-l: 16px;
+	--radius-radius-s: 8px;
+	--radius-radius-zero: 0;
+	--radius-radius-round: 1000px;
+	--interact-interact-bg-fill: #f6f6f6;
+	--poi-stroke-point: #fff;
+	--poi-union-point-success: #5ed686;
+	--controls-float-surface: rgb(255 255 255 / 90%);
+	--strokes-stroke-default: #eee;
+	--interact-interact-btn-secondary: rgb(92 94 102 / 6%);
+	--interact-interact-btn-accent: #313133;
+}
+
+body,
+html,
+#root {
+	margin: 0;
+	padding: 0;
+	font-family: var(--font-family);
+	background-color: var(--interact-interact-bg-fill);
+	height: 100%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+	font-family: var(--font-family);
+	white-space: break-spaces;
+}
+
+.ant-modal-mask,
+.dialog-content,
+.dialog-wrapper {
+	position: absolute !important;
+}
+
+.dialog-content .ant-modal-content {
+	padding: 10px;
+}
+
+.dialog-content button.ant-btn-primary:not(:disabled) {
+	background: var(--color-button-primary);
+	color: var(--color-button-text);
+}
+
+.dialog-content button.ant-btn-primary:not(:disabled):hover {
+	background: var(--color-button-primary-hover);
+	color: var(--color-button-text);
+}
+
+.dialog-content button.ant-btn-primary:not(:disabled):active {
+	background: var(--color-button-primary-active);
+	color: var(--color-button-text);
+}

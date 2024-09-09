@@ -1,0 +1,21 @@
+.order-info {
+	color: var(--text-text-secondary);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.first-line {
+	padding-bottom: var(--paddings-size-s);
+}
+
+.order-name {
+	padding: var(--paddings-size-micro) 6px;
+	border-radius: var(--radius-radius-s);
+	border: 1px solid var(--strokes-stroke-default);
+	background: var(--interact-interact-btn-secondary);
+	color: var(--text-text-primary);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+}

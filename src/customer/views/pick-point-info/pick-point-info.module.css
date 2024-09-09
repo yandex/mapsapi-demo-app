@@ -1,0 +1,46 @@
+.info {
+	padding: var(--paddings-size-s, 8px) 0;
+}
+
+.top {
+	position: absolute;
+	width: 100%;
+}
+
+.close {
+	position: absolute;
+	top: var(--paddings-size-s, 8px);
+	right: 0;
+}
+
+.content {
+	display: flex;
+	padding: var(--paddings-size-l, 16px);
+	flex-direction: column;
+	align-items: flex-start;
+	align-self: stretch;
+}
+
+.tags {
+	display: flex;
+	padding-top: var(--paddings-size-m, 12px);
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 6px var(--paddings-size-xs, 6px);
+	align-self: stretch;
+	flex-wrap: wrap;
+}
+
+.tag {
+	border-radius: 999px;
+	padding: var(--paddings-size-xxs, 4px) var(--paddings-size-s, 8px);
+}
+
+.action {
+	display: flex;
+	padding: var(--paddings-size-m, 12px) var(--paddings-size-l, 16px);
+	flex-direction: column;
+	align-items: center;
+	gap: var(--paddings-size-zero, 0);
+	align-self: stretch;
+}

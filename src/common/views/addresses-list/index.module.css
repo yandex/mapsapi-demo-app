@@ -1,0 +1,60 @@
+.list {
+	position: relative;
+	width: 100%;
+}
+
+.button {
+	border-radius: 0;
+}
+
+.first-button {
+	border-top-left-radius: var(--ant-border-radius);
+	border-top-right-radius: var(--ant-border-radius);
+}
+
+.last-button {
+	border-bottom-left-radius: var(--ant-border-radius);
+	border-bottom-right-radius: var(--ant-border-radius);
+}
+
+.button-text {
+	gap: var(--paddings-size-l, 16px);
+}
+
+.circle {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: var(--color-route-destination);
+	flex: 0 0 auto;
+}
+
+.circle-red {
+	background: var(--color-route-origin);
+}
+
+.dots {
+	position: absolute;
+	top: 40px;
+	left: 21px;
+	transform: translate(-50%, -50%);
+	gap: var(--paddings-size-xxs, 4px);
+	z-index: 1;
+}
+
+.dot {
+	width: 2px;
+	height: 2px;
+	background: var(--ant-color-text-tertiary);
+}
+
+.divider {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	margin: 0 42px;
+	width: calc(100% - 84px);
+	min-width: calc(100% - 84px);
+}

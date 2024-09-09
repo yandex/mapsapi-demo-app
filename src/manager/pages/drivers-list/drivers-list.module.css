@@ -1,0 +1,12 @@
+.list-layout {
+	padding: 0 var(--paddings-size-s, 8px);
+}
+
+.title {
+	padding: var(--paddings-size-xxs, 4px) var(--paddings-size-s, 8px)
+		var(--paddings-size-s, 8px) var(--paddings-size-s, 8px);
+}
+
+.list {
+	background-color: var(--bg-bg-primary);
+}

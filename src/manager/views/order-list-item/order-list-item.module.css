@@ -1,0 +1,9 @@
+.title {
+	color: var(--text-text-primary);
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.first-line {
+	padding-bottom: var(--paddings-size-s);
+}

@@ -1,0 +1,12 @@
+.delivery-type {
+	padding: 2px 4px;
+}
+
+.text {
+	color: var(--text-text-secondary);
+	white-space: nowrap;
+
+	&.express {
+		color: var(--text-text-warning);
+	}
+}

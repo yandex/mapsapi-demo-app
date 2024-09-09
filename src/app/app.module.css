@@ -1,0 +1,23 @@
+.app {
+	height: 100%;
+	overflow: auto;
+	justify-content: center;
+	padding: 50px 0;
+	box-sizing: border-box;
+	display: none;
+	position: relative;
+}
+
+.visible {
+	display: flex;
+}
+
+.platform {
+	position: absolute;
+	inset: 0;
+}
+
+.icon {
+	color: var(--ant-color-icon);
+	font-size: var(--ant-font-size-icon);
+}

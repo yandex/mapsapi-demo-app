@@ -1,0 +1,28 @@
+.order-view {
+    padding: var(--paddings-size-l);
+}
+
+.close-icon {
+    cursor: pointer;
+    padding: var(--paddings-size-m);
+}
+
+.map {
+    aspect-ratio: 4 / 3;
+    border-radius: var(--radius-radius-s);
+	overflow: hidden;
+}
+
+.card {
+	padding: var(--paddings-size-zero);
+}
+
+.card-cell {
+	padding: var(--paddings-size-s-2-dont-use-a-lot);
+}
+
+.progress-info {
+	color: var(--text-text-secondary);
+	font-size: 16px;
+	line-height: 22px;
+}

@@ -1,0 +1,41 @@
+.manager-layout {
+	height: 100%;
+
+	&.list {
+		padding: 72px 0 74px;
+	}
+}
+
+.mode-picker {
+	padding: var(--paddings-size-l);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.mode-picker.list {
+	background: var(--bg-bg-submerged);
+}
+
+.manager-layout-content {
+	min-height: 100%;
+	overflow-y: scroll;
+}
+
+.toolbar {
+	padding: var(--paddings-size-xxs);
+	background: var(--bg-bg-primary);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.mode-option {
+	padding: var(--paddings-size-s-2-dont-use-a-lot) var(--paddings-size-m);
+	line-height: 16px;
+	border-radius: 8px;
+}

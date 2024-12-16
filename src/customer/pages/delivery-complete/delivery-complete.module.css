@@ -1,0 +1,30 @@
+.delivery-complete {
+	padding: var(--paddings-size-l);
+}
+
+.buttons {
+	margin-top: var(--paddings-size-xxl);
+	height: 52px;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+
+.order-info {
+	display: flex;
+	flex-direction: column;
+	gap: var(--paddings-size-xl);
+	line-height: 16px;
+}
+
+.route-icon {
+	font-size: 14px;
+	color: var(--ant-color-text-secondary);
+}
+
+.pin {
+	width: 58px;
+	height: 71px;
+	top: 9px;
+	transform: translate(-50%, -100%);
+	position: absolute;
+}

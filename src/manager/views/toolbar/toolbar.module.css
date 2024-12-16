@@ -1,0 +1,8 @@
+.toolbar-option {
+	padding: var(--paddings-size-xxs) var(--paddings-size-m);
+	line-height: var(--ant-line-height);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: var(--paddings-size-xs);
+}

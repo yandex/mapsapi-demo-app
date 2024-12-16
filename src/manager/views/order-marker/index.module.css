@@ -1,0 +1,40 @@
+.order-marker {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	transform: translate(-12px, -12px);
+	cursor: pointer;
+
+	.icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		box-sizing: border-box;
+		height: 24px;
+		width: 24px;
+		border-radius: 50%;
+		background-color: var(--poi-union-point);
+		border: 2px solid var(--poi-stroke-point);
+		z-index: 1;
+
+		&.waited-icon {
+			background-color: var(--poi-union-point-success);
+		}
+	}
+
+	.hint {
+		display: flex;
+		align-items: center;
+		padding: var(--paddings-size-xxs) var(--paddings-size-m)
+			var(--paddings-size-xxs) var(--paddings-size-xl);
+		white-space: nowrap;
+		border-radius: var(--radius-radius-round);
+		background: var(--controls-float-surface);
+		transform: translateX(-12px);
+		color: var(--text-text-primary);
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		z-index: 0;
+	}
+}

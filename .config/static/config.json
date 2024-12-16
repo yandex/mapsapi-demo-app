@@ -1,0 +1,58 @@
+{
+	"defaultLanguage": "ru_RU",
+	"defaultRegion": "moscow",
+	"supportedLanguages": ["ru_RU", "en_US"],
+	"regionByLanguage": {
+		"ru_RU": "moscow",
+		"en_US": "istanbul"
+	},
+	"currencyRateByLanguage": {
+		"ru_RU": 90,
+		"en_US": 1
+	},
+	"driverSpeedByRegion": {
+		"moscow": 80
+	},
+	"defaultDriverSpeed": 40,
+	"apiUrl": "https://api-maps.yandex.ru/v3/",
+	"staticApiUrl": "https://static-maps.yandex.ru/v1",
+	"routeApiUrl": "https://api.routing.yandex.net/v2/route",
+	"distanceMatrixApiUrl": "https://api.routing.yandex.net/v2/distancematrix",
+	"isochroneApiUrl": "https://isoline.api.maps.yandex.ru/v1/{{mode}}",
+	"geocodeApiUrl": "https://geocode-maps.yandex.ru/1.x/",
+	"geosuggestApiUrl": "https://suggest-maps.yandex.ru/v1/suggest",
+	"outputPath": "dist",
+	"s3TargetPath": "api-demo-app",
+	"regions": {
+		"istanbul": {
+			"bbox": [
+				[28.862748758573378, 41.09735155081861],
+				[28.929696695585097, 40.99390258876684]
+			],
+			"zoom": 13
+		},
+		"moscow": {
+			"bbox": [
+				[37.210079, 55.929265],
+				[37.96924, 55.555043]
+			],
+			"zoom": 11
+		},
+		"almaty": {
+			"bbox": [
+				[76.83952021747521, 43.401535974172184],
+				[77.00628737148266, 43.1593188828736]
+			],
+			"zoom": 12
+		}
+	},
+	"externals": {
+		"@yandex/ymaps3-types": [
+			"promise new Promise((resolve) => ymaps3.ready.then(() => resolve(ymaps3)))"
+		],
+		"@yandex/ymaps3-types/reactify": [
+			"promise new Promise((resolve) => ymaps3.import('@yandex/ymaps3-reactify').then(resolve))"
+		]
+	},
+	"host": "yandex.localhost"
+}

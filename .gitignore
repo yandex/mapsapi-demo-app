@@ -1,0 +1,7 @@
+.idea
+.vscode
+node_modules
+.env
+dist*
+output*
+github-sync

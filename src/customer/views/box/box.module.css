@@ -1,0 +1,30 @@
+.box {
+	display: flex;
+	padding: var(--paddings-size-s, 8px) 0 var(--paddings-size-l, 16px) 0;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: var(--paddings-size-m, 12px);
+	border-radius: var(--radius-radius-l, 16px);
+	background: var(--bg-bg-primary, #fff);
+	margin-bottom: var(--paddings-size-s, 8px);
+}
+
+.title h4 {
+	display: flex;
+	padding: var(--paddings-size-s, 8px) var(--paddings-size-l, 16px);
+	align-items: flex-start;
+	gap: var(--paddings-size-s-2-dont-use-a-lot);
+	align-self: stretch;
+	justify-content: space-between;
+	margin: 0;
+}
+
+.content {
+	display: flex;
+	padding: var(--paddings-size-zero, 0) var(--paddings-size-l, 16px) 0
+		var(--paddings-size-l, 16px);
+	flex-direction: column;
+	align-items: flex-start;
+	gap: var(--paddings-size-m, 12px);
+	align-self: stretch;
+}

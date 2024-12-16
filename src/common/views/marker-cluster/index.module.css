@@ -1,0 +1,21 @@
+.icon {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	transform: translate(-20px, -20px);
+	border-radius: 50%;
+	border: 2px solid var(--poi-stroke-point);
+	background-color: var(--poi-union-point);
+	color: var(--text-text-inverted);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	cursor: pointer;
+
+	&:hover {
+		background-color: var(--icons-icons-action);
+	}
+}

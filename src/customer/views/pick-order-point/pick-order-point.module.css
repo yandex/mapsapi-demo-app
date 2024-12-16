@@ -1,0 +1,110 @@
+.pickpoint {
+	position: absolute;
+	inset: 0;
+	border-radius: var(--radius-radius-l, 16px) var(--radius-radius-l, 16px)
+		var(--radius-radius-zero, 0) var(--radius-radius-zero, 0);
+	background: #fff;
+	z-index: 1500;
+	display: none;
+}
+
+.pickpoint.open {
+	display: block;
+}
+
+.content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.map {
+	flex: 1;
+	height: 100px;
+	position: relative;
+}
+
+.back {
+	display: flex;
+	align-items: center;
+}
+
+.tabs {
+	display: flex;
+	justify-content: space-between;
+	padding: var(--paddings-size-l, 16px) var(--paddings-size-l, 16px)
+		var(--paddings-size-m, 12px);
+	align-items: center;
+	gap: var(--paddings-size-xs, 6px);
+	align-self: stretch;
+}
+
+.segmented {
+	flex: 1;
+}
+
+.map-wrapper {
+	height: 100%;
+	z-index: 1;
+}
+
+.search {
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 2;
+	top: 16px;
+	width: 100%;
+	padding: 0 16px;
+}
+
+.filter {
+	box-sizing: border-box;
+	width: 100%;
+	position: absolute;
+	z-index: 1500;
+	bottom: 16px;
+	padding: 0 16px;
+	text-align: center;
+	display: flex;
+}
+
+.filter button + button {
+	margin-left: 8px;
+}
+
+.point {
+	width: var(--paddings-size-xxl, 24px);
+	height: var(--paddings-size-xxl, 24px);
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	fill: black;
+
+	&:not(.active) {
+		background-color: var(--poi-union-point);
+		border-radius: 50%;
+		border: 2px solid var(--poi-stroke-point);
+		cursor: pointer;
+	}
+
+	&.active {
+		width: 46px;
+		height: 62px;
+		transform: translate(-50%, calc(-100% + 8px));
+	}
+}
+
+.point.active svg {
+	width: 100%;
+	height: 100%;
+	fill: var(--poi-union-point);
+}
+
+.confirm-selected-address {
+	min-height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

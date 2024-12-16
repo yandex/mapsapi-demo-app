@@ -1,0 +1,23 @@
+.title {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: var(--ant-color-text-secondary);
+}
+
+.value {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: var(--ant-font-size-lg);
+}
+
+.cell {
+	overflow: hidden;
+	padding: var(--paddings-size-s-2-dont-use-a-lot);
+}
+
+.divider {
+	height: 24px;
+	margin: var(--paddings-size-zero);
+}

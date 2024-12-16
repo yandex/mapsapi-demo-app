@@ -1,0 +1,15 @@
+.avatar-text {
+	color: var(--ant-color-text-primary);
+}
+
+.secondary {
+	color: var(--ant-color-text-secondary);
+}
+
+.avatar {
+	margin-right: var(--paddings-size-s);
+}
+
+.avatar.vertical {
+	margin-right: 0;
+}

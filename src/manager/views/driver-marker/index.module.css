@@ -1,0 +1,29 @@
+.driver-marker {
+	display: flex;
+	flex-direction: row;
+	height: 24px;
+	position: absolute;
+	transform: translate(-12px, -12px);
+	cursor: pointer;
+	border-radius: var(--radius-radius-round);
+	background: var(--controls-float-surface);
+
+	.avatar {
+		border-radius: 50%;
+		border: 2px solid var(--poi-stroke-point);
+
+		&.delivering {
+			border-color: var(--poi-union-point-success);
+		}
+	}
+
+	.name {
+		padding: var(--paddings-size-xxs) var(--paddings-size-m)
+			var(--paddings-size-xxs) var(--paddings-size-s);
+		white-space: nowrap;
+		color: var(--text-text-primary);
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+	}
+}

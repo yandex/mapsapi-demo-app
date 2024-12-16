@@ -1,0 +1,11 @@
+.submit {
+	min-height: 152px;
+	position: relative;
+	text-align: center;
+}
+
+.loading {
+	min-height: 152px;
+	text-align: center;
+	flex: 1 0 auto;
+}

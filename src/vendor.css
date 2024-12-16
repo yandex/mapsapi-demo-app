@@ -1,0 +1,35 @@
+@font-face {
+	font-family: ystext;
+	src: url('https://yastatic.net/islands/_/bIx8jOfCEfR-mECoDUEZywDBuHA.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: ystext;
+	src: url('https://yastatic.net/islands/_/SmqPmIMEXrW4lOY8QrhTUVDbrro.woff')
+		format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: ystext;
+	src: url('https://yastatic.net/islands/_/KtHQR1erf3spayoIM4M4ngg0e2E.woff')
+		format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+:root {
+	--font-family: ystext, arial, sans-serif;
+	--color-route-origin: #f43;
+	--color-route-destination: #333;
+	--poi-union-point: #f43;
+	--color-button-primary: #313133;
+	--color-button-primary-hover: #4a4b4d;
+	--color-button-primary-active: #1d1e1f;
+	--color-button-text: #fff;
+	--icons-icons-action: #196dff;
+}

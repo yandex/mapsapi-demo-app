@@ -1,0 +1,9 @@
+.layout {
+	padding: var(--paddings-size-l, 16px) var(--paddings-size-s, 8px);
+	overflow: auto;
+}
+
+.title {
+	padding: var(--paddings-size-xxs, 4px) var(--paddings-size-s, 8px)
+		var(--paddings-size-s, 8px) var(--paddings-size-s, 8px);
+}
